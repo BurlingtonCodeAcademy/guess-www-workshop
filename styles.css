@@ -1,3 +1,17 @@
 h1 {
-  color: blue
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#display {
+  width: 20vw;
+  height: 20vh;
+  border: 2px dotted maroon;
+  border-radius: 5px;
+  margin-left: calc(50% - 20vw - 2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
